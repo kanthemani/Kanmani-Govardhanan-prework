@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+body { 
+  background-color: rgba(79, 186, 216, 0.63);}
+h4 {
+  color: azure;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif  ;
+}
+h5{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  color: azure;
+  font-size: 70px;
+  margin-bottom: 10pt;
+}
+
+.center {
+  margin: auto;
+  width: 10%;
+  border: 2px solid azure;
+  color: azure;
+}
+#marg {
+  margin-top: 220pt;
+  margin-bottom: 10pt;
+}
