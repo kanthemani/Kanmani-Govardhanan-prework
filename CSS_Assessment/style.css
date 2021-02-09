@@ -1,0 +1,33 @@
+header {
+    background-color: grey;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#left {
+    background: blue;
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 17%;
+    box-sizing: border-box;
+
+}
+
+
+#right {
+    background: red;
+    float: right;
+    width: 25%;
+    text-align:center;
+    padding:17%;
+    box-sizing: border-box;
+}
+
+#footer {
+    background: green;
+    text-align: center;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+}
