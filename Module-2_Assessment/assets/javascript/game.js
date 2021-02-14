@@ -1,38 +1,29 @@
+var $ = function (id) {
+    return document.getElementById(id);
+}
 
-
-var words=["apple", "banana", "watermelon", "cantaloupe", "honeydew", "jackfruit", "papaya", "dragonfruit", 
+var PossibleWords=["apple", "banana", "watermelon", "cantaloupe", "honeydew", "jackfruit", "papaya", "dragonfruit", 
             "pineapple", "durian", "blood orange", "strawberry", "apricot", "kumquat", "pomegranate"];
 
-var word = words[Math.floor(Math.random() * words.length)];     
+var word = PossibleWords[Math.floor(Math.random() * PossibleWords.length)];     
+var answer= PossibleWords[word];
+var myLength = answer.length;
+var display=[myLength];
+var win = myLength;
+var letters = answer.split('');
+var attemptsLeft=9;
+var output="";
 
-var answerArray = [];
-for (var i = 0; i < word.length; i++) {
- answerArray[i] = "_";
+var setup = function()
+{
+    for (var i=0; i<answer.length; i++)
+    {
+        display[i] = "_";
+        output = output + display[i];
+    }
+    document.getElementById("PossibleWords").innerHTML = output;
+    output ="";
 }
-var remainingLetters = word.length;
 
- // The game loop
- while (remainingLetters > 0) {
-    // Show the player their progress
-    alert(answerArray.join(" "));
-    // Get a guess from the player
-    var guess = prompt("Guess a letter, or click Cancel to stop playing.");
-    if (guess === null) {
-    // Exit the game loop
-    break;
-    } else if (guess.length !== 1) {
-    alert("Please enter a single letter.");
-    } else {
-    // Update the game state with the guess
-    for (var j = 0; j < word.length; j++) {
-    if (word[j] === guess) {
-    answerArray[j] = guess;
-    remainingLetters--;
-    }
-    }
-    }
-    // The end of the game loop
-    }
-    // Show the answer and congratulate the player
-    alert(answerArray.join(" "));
-    alert("Good job! The answer was " + word);
+
+
