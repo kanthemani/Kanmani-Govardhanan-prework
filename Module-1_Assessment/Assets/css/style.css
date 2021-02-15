@@ -49,7 +49,7 @@
 }
 
 body{
-    background-image: url("Assets\images\watercolor.png");
+    background-image: url("../images/watercolor.png");
     background-color: thistle;
 }
 

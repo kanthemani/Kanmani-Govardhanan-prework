@@ -1,0 +1,21 @@
+
+.container {
+    margin: auto;
+    text-align: center;
+    padding-top: 250px;
+}
+#currentWord {
+    letter-spacing: 12px;
+    
+}
+body {
+    background-image: url("../images/fruits-background-1.png");
+    background-repeat: repeat;
+    background-size:auto;
+    height: 500px;
+}
+
+h4 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 20px;
+}
