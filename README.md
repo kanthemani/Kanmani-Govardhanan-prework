@@ -1,1 +1,3 @@
-# Kanmani-Govardhanan-prework
+# Word Guess Game
+
+The Module 2 Javascript assessment was to creat a Word Guess game. This was really difficult for me as I had no prior expereince coming in to this program. It was a big jump from the first Javascript Assessment to go to creating a game. I tried to google everything to see how to make it but it was still hard to understand for me. I did find several tutorials so I followed those on how to set up the javascript, and tried to work backwards in understanding each componenent. I changed the necessary items and stylings to fit my theme as well. I still have a lot to learn though, and hope to come back to this again and recreate it from scratch without looking at other's examples.
